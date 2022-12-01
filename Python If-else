@@ -1,5 +1,4 @@
 Q1. Python program to print the biggest number amoung 3 numbers with help of if else.
-
 Solution:
 a=int(input("enter the value of a"))
 b=int(input("enter the value of b"))
@@ -15,7 +14,6 @@ else:
     print(c," is the biggest number")
     
 Q2. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.    
-
 Solution: 
 year=int(input("Enter the year of service"))
 salary=int(input("Enter the salary"))
@@ -25,4 +23,76 @@ if year>5:
 else:
     print("Year of service =",year,".Hence, not eligible for the bonus")
     
+Q3. Take values of length and breadth of a rectangle from user and check if it is square or not.
+Solution:
+length=float(input("Enter the length"))
+bredth=float(input("Enter the bredth"))
+if length==bredth:
+    print("Its square")
+else:
+    print("Its not square")
+    
+Q4. Take two int values from user and print greatest among them.
+Solution: 
+a=int(input("Enter the first number"))
+b=int(input("Enter the second number"))
+if a>b:
+    print(a," is greater than ",b)
+else:
+    print(b," is greater than ",a)
+    
+    
+Q5. A shop will give discount of 10% if the cost of purchased quantity is more than 1000. Ask user for quantity Suppose, one unit will cost 100. Judge and print total cost for user. 
+Solution:  
+qty=int(input("Enter the quantity"))
+tc=qty*100
+if tc>1000:
+    fc=tc-(0.10*tc)
+    print("Quantity =",qty," Total Cost=",tc," Final Cost=",fc)
+else:
+    print("Quantity =",qty,"Total Cost=", tc, "Hence, not eligible for the discount")
+    
+Q6. A school has following rules for grading system:
+a. Below 25 - F
+b. 25 to 45 - E
+c. 45 to 50 - D
+d. 50 to 60 - C
+e. 60 to 80 - B
+f. Above 80 - A
+Ask user to enter marks and print the corresponding grade.
+
+Solution: 
+marks=int(input("Enter the marks"))
+if marks>80:
+    print("Grade A")
+elif marks>60 and marks<80:
+    print("Grade B")
+elif marks>50 and marks<60:
+    print("Grade C")
+elif marks>45 and marks<50:
+    print("Grade D")    
+elif marks>25 and marks<45:
+    print("Grade E") 
+else:
+    print("Grade F")
+    
+Q7. Take input of age of 3 people by user and determine oldest and youngest among them.
+Solution:
+p1=int(input("Enter the age of the first person"))
+p2=int(input("Enter the age of the second person"))
+p3=int(input("Enter the age of the third person"))
+if p1>p2 and p1>p3:
+    print("First person is oldest whose age is ",p1)
+elif p2>p1 and p2>p3:
+    print("Second person is oldest whose age is ",p2)
+else:
+    print("Third person is oldest whose age is ",p3)
+if p1<p2 and p1<p3:
+    print("First person is youngest whose age is ",p1)
+elif p2<p1 and p2<p3:
+    print("Second person is youngest whose age is ",p2)
+else:
+    print("Third person is youngest whose age is ",p3)    
+    
+Q8.     
     
