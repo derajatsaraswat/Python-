@@ -1,5 +1,6 @@
-Python program to print the biggest number amoung 3 numbers with help of if else.
+Q1. Python program to print the biggest number amoung 3 numbers with help of if else.
 
+Solution:
 a=int(input("enter the value of a"))
 b=int(input("enter the value of b"))
 c=int(input("enter the value of c"))
@@ -12,5 +13,16 @@ elif b>a and b>c:
     print(b," is the biggest number")
 else: 
     print(c," is the biggest number")
+    
+Q2. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.    
+
+Solution: 
+year=int(input("Enter the year of service"))
+salary=int(input("Enter the salary"))
+if year>5:
+    bonus=0.05*salary
+    print("Year of service =",year,",Bonus = ",bonus)
+else:
+    print("Year of service =",year,".Hence, not eligible for the bonus")
     
     
