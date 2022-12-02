@@ -1,1 +1,41 @@
+Q1. Python program to calculate the product and sum of all the elements of the list. 
+SOLUTION:
+lst=[10,20,30,40,50]
+index=0
+product=1
+sum=0
+while index<len(lst):
+    product=product*lst[index]
+    sum=sum+lst[index]
+    index=index+1
+print("List =",lst)
+print("Total Product =",product)
+print("Total sum =",sum)
+
+Q2. Python program to check if the given number is Prime or not. 
+SOLUTION:
+num=int(input("Enter the number"))
+i=2
+f=0
+while i<num:
+    if num%i==0:
+        f=1
+        break
+    i=i+1    
+if f==1:
+    print("Not prime")
+else:
+    print("prime") 
+
+Q3. program to take an input of 10 numbers and print its average using while loop. 
+SOLUTION:
+i=1
+sum=0
+while i<=10:
+    print("Enter the value #",1)
+    n=int(input("Enter the value"))
+    sum=sum+n
+    avg=sum/10
+    i=i+1
+print("Average of numbers =",avg)
 
