@@ -1,1 +1,30 @@
+Q1. Python program to print product and sum of all the elements of a list. 
+SOLUTION:
+product=1
+sum=0
+lst=[10,20,30,40,50,60]
+for index in lst:
+    product=product*index
+    sum=sum+index
+print("Product=", product,"\nSum=",sum)
 
+Q2. Python program to print the sum and product of all the numbers between 1 and 100.
+SOLUTION: 
+product=1
+sum=0
+for i in range(1,101):
+    sum=sum+i
+    product=product*i
+print("SUM =",sum,"\n")
+print("PRODUCT =",product)
+
+Q3. print all the even numbers between two given numbers.
+SOLUTION:
+n1=int(input("Enter the lowest value"))
+n2=int(input("Enter the highest value"))
+print("Even numbers between",n1," and ",n2," are ")
+for i in range(n1,n2+1):
+    if i%2==0:
+        print(i)
+
+Q4. 
