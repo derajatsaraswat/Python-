@@ -39,3 +39,57 @@ while i<=10:
     i=i+1
 print("Average of numbers =",avg)
 
+Q4. Program to print the pattern:
+*
+**
+***
+****
+SOLUTION: 
+i=1
+while i<=4:
+    print("*"*i)
+    i=i+1
+    
+Q5. Program to print the table of 24,29,100 using while loop. 
+SOLUTION:
+a=24
+b=29
+c=100
+i=1
+t1=1
+t2=1
+t3=1
+while i<=10:
+    t1=a*i
+    t2=b*i
+    t3=c*i
+    print(t1,t2,t3)
+    i=i+1
+ 
+ Q6. Program to take an input of the number and print the table . 
+ SOLUTION:
+ i=1
+mul=1
+num=int(input("Enter the number"))
+print("Number =",num)
+while i<=10:
+    print(num,"*",i,"=",num*i)
+    i=i+1
+    
+Q7. Write a program of an Infinite loop. 
+SOLUTION:
+i=1
+while i==1:
+    print(i)
+    
+Q8. Write a program to print the factorial of a given number using while loop. 
+SOLUTION: 
+fact=1
+num=int(input("Enter the number"))
+print("Number =",num)
+while num>=1:
+    fact=fact*num
+    num=num-1
+print("factorial =",fact) 
+
+
