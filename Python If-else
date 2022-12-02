@@ -163,3 +163,14 @@ elif gender=="M" and age>=40 and age<=60:
 else:
     print("ERROR...!!!!")
     
+Q12. Python program to find all the even numbers between given range and then add all the numbers. 
+SOLUTION: 
+n1=int(input("Enter the lowest value"))
+n2=int(input("Enter the highest value"))
+sum=0
+print("All odd numbers between",n1," and ",n2," =")
+for i in range(n1,n2+1):
+    if i%2!=0:
+        sum=sum+i
+        print(i)
+print("Sum =",sum)  
