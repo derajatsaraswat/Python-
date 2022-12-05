@@ -79,3 +79,56 @@ max=lst[-1]
 min=lst[0]
 print("Maximum value =",max)
 print("Minimum value =",min)
+
+Q9. Python program to find the second largest number of list. 
+SOLUTION:
+max=min=0
+lst=[12,54,76,11,43,768,43,12,45,67,89,9,87,6567]
+lst.sort()
+max=lst[-2]
+print("Maximum value =",max)
+
+Q10. Python program to print all even and odd numbers of a list seperately. 
+SOLUTION:
+lst=[12,54,76,11,43,768,43,12,45,67,89,9,87,6567]
+lst2=[]
+lst3=[]
+for ele in range(0,len(lst)):
+    if lst[ele]%2==0:
+        lst2.append(lst[ele])
+    else:
+        lst3.append(lst[ele])
+print("Even numbers =",lst2)
+print("Odd numbers =",lst3)
+
+Q11. Python program to print the number of even and odd numbers in a list. 
+SOLUTION:
+lst=[12,54,76,11,43,768,43,12,45,67,89,9,87,6567]
+even=0
+odd=0
+for ele in range(0,len(lst)):
+    if lst[ele]%2==0:
+        even=even+1
+    else:
+        odd=odd+1
+print("Even numbers =",even)
+print("Odd numbers =",odd)
+
+Q12. Python program to print all positive, negative and zeros from a list. 
+SOLUTION:
+lst=[12,-54,76,11,-43,768,43,12,45,67,89,9,87,6567]
+lst2=[]
+lst3=[]
+lst4=[]
+for ele in range(0,len(lst)):
+    if lst[ele]>0:
+        lst2.append(lst[ele])
+    elif lst[ele]<0:
+        lst3.append(lst[ele])
+    else:
+        lst4.append(lst[ele])
+print("Positive numbers =",lst2)
+print("Negative numbers =",lst3)
+print("Zero =",lst4)
+
+Q13. 
