@@ -1,1 +1,30 @@
+Q1. Program to print the length of the tuple. 
+SOLUTION: 
+t=(1,2,3,4,5,6,7,8,9,10)
+print("Size of tuple =",len(t))
+
+Q2. Program to print the smallest and largest element of a tuple.
+SOLUTION:
+t=(1,423,54,14,67,342,132,475,987,675,34)
+print("Maximum element =",max(t))
+print("Minimum element =",min(t))
+
+Q3. Program to add tuple to list. 
+SOLUTION:
+l=[1,2,3,4,5]
+t=(6,7,8,9,10)
+l=l+list(t)
+print(l)
+
+Q4. Program to print the addition and product of all elements of a tuple. 
+SOLUTION:
+sum=0
+mul=1
+t=(1,2,3,4,5,6,7,8,9)
+for ele in t:
+    sum=sum+ele
+    mul=mul*ele
+print("SUM =",sum)  
+print("PRODUCT =",mul)
+
 
